@@ -1,0 +1,16 @@
+const N = parseInt(readline());
+var inputs = readline().split(' ');
+for (let i = 0; i < N; i++) {
+    const X = parseInt(inputs[i]);
+}
+
+function average(array,size) {
+    var sum = 0;
+    for(let i = 0; i < size; i++) {
+        sum += parseInt(array[i]);
+    }
+    return sum/size;
+}
+
+
+console.log(average(inputs,N));
