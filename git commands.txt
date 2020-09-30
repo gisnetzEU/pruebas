@@ -1,0 +1,8 @@
+git log --oneline (en que rama se hicieron cambios)
+
+git branch nombreDeLaRama (crea una rama)
+
+git branch -a (te muestra las ramas creadas)
+
+git checkout feature-1
+
