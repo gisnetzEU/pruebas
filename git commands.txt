@@ -1,8 +1,23 @@
 git log --oneline (en que rama se hicieron cambios)
 
-git branch nombreDeLaRama (crea una rama)
+git branch (muestra las branches)
+
+git branch feature-1 (crea una rama llamada feature-1)
 
 git branch -a (te muestra las ramas creadas)
 
-git checkout feature-1
+git checkout -b beta (crea y te mueve dentro del branch beta)
 
+git checkout feature-1 (te mueve a branch feature-1)
+
+git branch -d feature-1
+
+git branch -D feature-1 (borra la branch feature-1)
+
+git checkout master
+
+git merge feature-1 (merge feature-1) //////////
+
+git push
+
+git push --set-upstream origin future-plans
